@@ -1,12 +1,11 @@
 import React from "react";
-import ExampleComponent, { RouterComponent } from "hrl";
+import RouterComponent from "react-router-app";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <ExampleComponent text="hello world" />
       <RouterComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
