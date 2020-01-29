@@ -1,5 +1,5 @@
 import React from "react";
-import ExampleComponent from "hrl";
+import ExampleComponent, { RouterComponent } from "hrl";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <ExampleComponent text="hello world" />
+      <RouterComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
